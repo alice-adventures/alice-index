@@ -1,0 +1,23 @@
+name = "alice"
+description = "Adventures for Learning and Inspiring Coding Excellence"
+tags = [ "alice", "adventures", "learning", "mathematics", "problems", "challenges" ]
+version = "0.1.4-dev"
+website = "https://github.com/rocher/Alice/wiki"
+licenses = "MIT"
+
+authors = [ "Francesc Rocher" ]
+maintainers = [ "Francesc Rocher <francesc.rocher@gmail.com>" ]
+maintainers-logins = [ "rocher" ]
+
+[build-switches]
+[build-switches."*"]
+ada_version = [ "-gnat2022", "-gnatX" ]
+
+[[depends-on]]
+clic = "~0.2.1"
+simple_logging = "^1.2.0"
+
+[origin]
+commit = "9e62d5c5be8c9a3b0cf7562f2f55b2182fc7d3f4"
+url = "git+https://github.com/alice-adventures/Alice.git"
+
