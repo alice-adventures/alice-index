@@ -1,4 +1,4 @@
-<img src="Alice_Adventures.png" width="250" />
+<img src="https://raw.githubusercontent.com/wiki/alice-adventures/Alice/Alice_Adventures.png" width="250" />
 
 # Alice Index
 
